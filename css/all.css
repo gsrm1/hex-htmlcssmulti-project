@@ -9,7 +9,7 @@
 .nav{
     max-width: 1000px;
     padding: 5px 0px;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.6);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -47,9 +47,9 @@
     position: fixed;
     top: 29px;
     width: 100%;
-    border: opx 1px 1px 1px solid hsla(0, 0%, 0%, 0.5);
+    border: opx 1px 1px 1px solid hsla(0, 0%, 0%, 0.6);
     border-radius: 0px 0px 10px 10px;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.6);
 }
 .header .logo a{
     display: block;
@@ -240,7 +240,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background: linear-gradient(#37d8b0, rgb(255, 255, 255));
 }
 .footer-contact li a{
