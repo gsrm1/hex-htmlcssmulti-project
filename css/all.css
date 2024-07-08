@@ -62,7 +62,7 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
-    background: url(/img/all-hexlogo.png) no-repeat;
+    background: url(../img/all-hexlogo.png) no-repeat;
 }
 .header .menu ul{
     width: 265px;
@@ -265,7 +265,7 @@
     margin-bottom: 55px;
     display: flex;
     align-items: center;
-    background: url(/img/course-banner.png) no-repeat 1250px;
+    background: url(../img/course-banner.png) no-repeat 1250px;
     background-position: 0% 29%;
 }
 .course-content .content-banner h1{
@@ -405,7 +405,7 @@
     height: 400px;
     padding-bottom: 31px;
     text-align: center;
-    background: url(/img/faq-banner.png) no-repeat;
+    background: url(../img/faq-banner.png) no-repeat;
     background-size: 1000px auto ;
     background-position: 0% 50%;
 }
