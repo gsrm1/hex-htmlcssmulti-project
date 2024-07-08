@@ -6,6 +6,9 @@
     margin: 0 auto;
     font-family: "Noto Sans TC", Arial, sans-serif;
 }
+
+/* index */
+
 .nav{
     max-width: 1000px;
     padding: 5px 0px;
@@ -250,4 +253,279 @@
 }
 .footer-contact li a:hover{
     text-decoration: underline;
+}
+
+/* index */
+
+/* course */
+
+.course-content .content-banner{
+    max-width: 1000px;
+    height: 400px;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    background: url(/img/course-banner.png) no-repeat 1250px;
+    background-position: 0% 29%;
+}
+.course-content .content-banner h1{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px;
+    margin-bottom: 40px;
+    padding: 0px 50px;
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+.course-content .content-banner h1 span{
+    width: 1000px;
+    color: rgb(66, 197, 66);
+    font-size: 23px;
+    background-color: hsla(0, 0%, 0%, 0.2);
+}
+.course-content .content-banner img{
+    padding: 0px 20px;
+}
+.course-content .content-banner button{
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    border: 1px solid rgb(40, 161, 124);
+    border-radius: 7px;
+    background-color: rgb(40, 161, 124);
+    cursor: pointer;
+}
+.course-content .content-banner button:hover{
+    border: 3px solid red;
+}
+.content-introduce .introduce1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 100px;
+}
+.content-introduce .introduce1 ul h3{
+    font-size: 35px;
+    line-height: 50px;
+}
+.content-introduce .introduce1 h3 span{
+    color: rgb(35, 185, 115);
+}
+.content-introduce .introduce1 ul .qualifications{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: disc;
+}
+.content-introduce .introduce1 .qualifications li{
+    line-height: 35px;
+    font-size: 18px;
+    color: rgb(98, 95, 95);
+}
+.content-introduce .introduce2 {
+    margin: 50px auto 0px;
+    width: 650px;
+}
+.content-introduce .introduce2 h4 {
+    color: rgb(98, 95, 95);
+    font-size: 20px;
+}
+.content-introduce .introduce2 h4 span{
+    font-size: 35px;
+    color: rgb(35, 185, 115);   
+}
+.content-introduce .introduce2 ol{
+    list-style-type: decimal;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 15px 0px 50px 20px;
+}
+.content-introduce .introduce3{
+    width: 600px;
+    margin: 0 auto 50px;
+}
+.content-introduce .introduce3 table{
+    width: 600px;
+    line-height: 40px;
+    margin-top: 25px;
+}
+.content-introduce .introduce3 h4{
+    color: rgb(98, 95, 95);
+    font-size: 20px;
+}
+.content-introduce .introduce3 h4 span{
+    font-size: 35px;
+    color: rgb(35, 185, 115); 
+}
+.content-introduce .introduce3 td:hover{
+    background-color: rgb(35, 185, 115);
+}
+.content-introduce .introduce3 th, .content-introduce .introduce3 td{
+    padding-left: 30px;  
+}
+.content-introduce .introduce3 th{
+    background-color: rgb(213, 208, 208);
+}
+.course-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+    background-color: rgb(213, 208, 208);;
+}
+.course-register h5{
+    font-size: 30px;
+    line-height: 50px;
+}
+.course-register button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid  rgb(35, 185, 115);
+    border-radius: 5px;
+    background-color: rgb(35, 185, 115);
+    cursor: pointer;
+}
+.course-register button:hover{
+    border: 3px solid red;
+}
+
+/* course */
+
+/* faq */
+
+.faq-content .content-banner{
+    max-width: 1000px;
+    height: 400px;
+    padding-bottom: 31px;
+    text-align: center;
+    background: url(/img/faq-banner.png) no-repeat;
+    background-size: 1000px auto ;
+    background-position: 0% 50%;
+}
+.faq-content .content-banner h1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.6);
+}
+.faq-content .content-banner h1 span{
+    font-size: 25px;
+    color: rgb(35, 185, 115);
+}
+.faq-content .content-banner h1 input{
+    width: 450px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px 0px 0px 5px;
+}
+.faq-content .content-banner input::placeholder{
+    color:gray;
+    padding-left: 10px;
+}
+.faq-content .content-banner h1 button{
+    width: 60px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+}
+.faq-content .content-banner button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px rgb(35, 185, 115);
+}
+.faq-content .content-faq{
+    width: 750px;
+    margin: 0 auto;
+}
+.faq-content .content-faq p{
+    line-height: 20px;
+    margin-top: 7px;
+}
+.faq-content .content-faq h3{
+    font-size: 20px;
+    color: rgb(132, 125, 125);
+    margin-top: 40px;
+}
+.faq-content .content-faq h3 span{
+    font-size: 35px;
+    color: rgb(35, 185, 115);
+}
+.faq-content .content-faq h4{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.faq-content .content-faq .small-gray{
+    font-size: 16px;
+    color:  rgb(132, 125, 125);
+}
+.faq-content .content-faq ol li{
+    line-height: 20px;
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+.faq-content .content-faq .ul-style li{
+    line-height: 20px;
+    list-style-type: disc;
+    margin-left: 50px;
+}
+.faq-content .content-faq p a{
+    text-decoration: none;
+    color: rgb(35, 185, 115);
+}
+.faq-content .content-faq p a:hover{
+    text-decoration: underline;
+    color: rgb(35, 185, 115);
+}
+.faq-content .content-form{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.faq-content .content-form h3{
+    font-size: 25px;
+    line-height: 40px;
+}
+.faq-content .content-form{
+    margin-top: 50px;
+}
+.faq-content .form-area fieldset{
+    display: flex;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    flex-direction: column;
+}
+.faq-content .form-area input{
+    width: 300px;
+    height: 40px;
+    margin: 5px 0px;
+}
+.faq-content .form-area textarea{
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: none;
+}
+.faq-content .form-area  fieldset legend{
+    font-size: 20px;
+    color: white;
+}
+.faq-content .form-area  fieldset .submit{
+    width: 100px;
+    background-color: rgb(35, 185, 115);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.faq-content .form-area .submit:hover{
+    background-color: orange;
 }
