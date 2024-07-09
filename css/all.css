@@ -328,7 +328,7 @@
 }
 .content-introduce .introduce2 {
     margin: 50px auto 0px;
-    width: 650px;
+    max-width: 650px;
 }
 .content-introduce .introduce2 h4 {
     color: rgb(98, 95, 95);
@@ -345,7 +345,7 @@
     margin: 15px 0px 50px 20px;
 }
 .content-introduce .introduce3{
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto 50px;
 }
 .content-introduce .introduce3 table{
@@ -442,7 +442,7 @@
     box-shadow: 0px 0px 40px rgb(35, 185, 115);
 }
 .faq-content .content-faq{
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
 }
 .faq-content .content-faq p{
