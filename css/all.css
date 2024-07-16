@@ -50,8 +50,7 @@
     position: fixed;
     top: 29px;
     width: 100%;
-    border: opx 1px 1px 1px solid hsla(0, 0%, 0%, 0.6);
-    border-radius: 0px 0px 10px 10px;
+    
     background-color: hsla(0, 0%, 0%, 0.6);
 }
 .header .logo a{
